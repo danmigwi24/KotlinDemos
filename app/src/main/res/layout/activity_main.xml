@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#129183"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Danny "
+        android:gravity="center" />
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="2dp"
+            android:background="#129183"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ListView"
+            android:textAllCaps="false"
+            android:onClick="Listview"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <Button
+            android:layout_margin="2dp"
+            android:background="#129183"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Robot"
+            android:onClick="Robotwalk"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <Button
+            android:layout_margin="2dp"
+            android:background="#129183"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:onClick="Login"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FireBase"
+            android:layout_margin="2dp"
+            android:background="#129183"
+            android:textAllCaps="false"
+            android:onClick="Firebase"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crud"
+            android:layout_margin="2dp"
+            android:background="#129183"
+            android:onClick="mysql"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:layout_margin="2dp"
+            android:background="#129183"
+            android:textAllCaps="false"
+
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
+

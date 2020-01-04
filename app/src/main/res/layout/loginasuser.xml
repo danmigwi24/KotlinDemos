@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/edtloginname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Name"
+        android:padding="20dp" />
+
+    <EditText
+        android:id="@+id/edtloginpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="20dp" />
+
+
+    <Button
+        android:id="@+id/btn_login_db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2E43D6"
+        android:text="Login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textStyle="italic|bold" />
+</LinearLayout>
